@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap');
+
+/* CSS for tablets*/
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+/* CSS fot Smartphones */
+@media only screen and (max-width: 768px){
+	h1{
+		font-size:1.5em;
+	}
+}
+
+header{
+	background-color: #000000;
+	text-align: center;
+}
+logo{
+	max-width: 275px;
+	height:auto;
+	display:black;
+	margin:0 auto;
+	padding:20px;
+}
+
+/* Vertical navigation bar*/
+a:link{
+color: purple;
+}
+a:visited{
+color: purple;
+}
+a:hover{
+color: blue;
+}
+a:active{
+color: black;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+}
+nav li {
+	display: inline;
+}
+nav a {
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link {
+	color:black;
+}
+nav a:visited {
+	color:black;
+}
+nav a:hover {
+	color: red;
+}
+nav a:active {
+	color: white;
+}
+
+body{
+	font-family: 'Indie Flower', cursive;
+	margin: 0;
+}
+
+h1{
+	text-align:center;
+	font-size: 4em;
+}
+h2{
+	
+	background-color: #40BF77;
+	padding-left: 10px;
+}
+h3{
+	color: white;
+	padding-left: 10px;
+}
+p {
+	padding: 10px;
+	color: white;
+}
+nav{
+	background-color: #40BF77;
+	border-top: 2px black solid;
+	border-bottom: 2px black solid;
+	padding: 5px;
+}
+main{
+	max-width: 1250px;
+	margin: 20px auto;
+}
+main ul{
+	color: white;
+}
+main b{
+	color:white;
+}
+.home-photo{
+	float: right;
+	max-width: 50%;
+	height: auto;
+	marign: 50px 0 10px 20px;
+	padding-left: 1px;
+	padding-right: 10px;
+	padding-bottom: 1px;
+	padding-top: 1px;
+}
+#home-hero{
+	background-image:url(images/back.PNG);
+	background-repeat:no-repeat;
+}
+#home-hero p{
+	text-align: center;
+	color: white;
+	margin: 0;
+	padding: 10px;
+} 
+canvas {
+    border: 1px solid #d3d3d3;
+    background-image:url(images/game.PNG);
+}
+
+footer{
+	text-align: center;
+	padding: 10px;
+	background-color: #40BF77;
+}
